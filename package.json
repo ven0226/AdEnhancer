@@ -1,0 +1,27 @@
+{
+  "name": "33across",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/_mocha -t 5000 spec --recursive --trace",
+    "start": "node src/app.js"
+  },
+  "author": "Venkatesh Sambandamoorthy",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "chai": "^4.1.2",
+    "express": "^4.16.3",
+    "geoip2ws": "^1.8.10",
+    "loadtest": "^3.0.4",
+    "mocha": "^5.2.0",
+    "sinon": "^6.1.5"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
